@@ -1,3 +1,9 @@
+def largestIn(tree):
+    if tree.right == None:
+        return tree.value
+    else:
+        return largestIn(tree.right)
+
 class Tree:
     def __init__(self, value, left, right):
         (self.value, self.left, self.right) = (value, left, right)
@@ -13,14 +19,11 @@ class Tree:
         # return "(" + left + " " + str(self.value) + " " + right + ")"
         return "(" + str(self.value) + " " + left + " " + right + ")"
 
-##  a = Tree(3, None, None)
-##  a.show()
-##  '(3  .   . )'
-##  a.left = Tree (1, None, None)
-##  a.show()
-##  '(3 (1  .   . )  . )'
-##  a.left.right = Tree(2, None, None)
-##  a.show()
-##  '(3 (1  .  (2  .   . ))  . )'
+def main():
+    a = Tree(3, None, None)
+    print(largestIn(a)) # 3
+    a .right = Tree(5, None, None)
+    print(largestIn(a)) # 5
 
-    
+if __name__=="__main__":
+    main()
