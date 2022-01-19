@@ -1,5 +1,7 @@
-class Dog:
+from Creature import Creature
+
+class Dog(Creature):
     def __init__(self, name):
-        self.name = name
-    def talk(self):
-        return "My name is " + self.name + " and I am a Dog: woof."
+        super().__init__(name)
+    def makeSound(self):
+        return ": woof."
