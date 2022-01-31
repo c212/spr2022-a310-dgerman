@@ -1,0 +1,55 @@
+This is lecture 06 on Mon Jan 31.
+
+******************************************************************************
+**  For general Luddy computing information, please see:                    **
+**      https://help.luddy.indiana.edu/                                     **
+**                                                                          **
+**  To submit a problem report or question, please see:                     **
+**      https://help.luddy.indiana.edu/request                              **
+**                                                                          **
+**  Run "config" command to see the hardware configuration of this system   **
+******************************************************************************
+Last login: Mon Jan 31 09:54:40 2022 from 149.161.251.93
+dgerman@silo:~$ cat apache/htdocs/a310/spr2022/0131a.phps 
+
+ 1. Week 01 Lab 01 GitHub accounts
+                   Lee and Hubbard chapter 1: drawing
+                   Object-oriented Python
+ 2. Homework 01 paper data structures trees and binary trees
+                binary search trees are special show me on paper
+    website at the U of San Francisco helps with visualizing data structures
+ 3. Homework 02 asked you to pay attention to OOP with Python
+                Creature, Dog, Cow (class extension mechanism)
+                Complex (starting Fraction)
+    Miller and Ranum contains in Chapter 1 such a development
+ 4. Lab 02 implement/define some of the data structures from Miller/Ranum
+    The books are linked in the syllabus
+    At this point Automate the boring stuff with Python kicks in
+    We already mentioned the first six chapters in the first lab
+ 5. Lab 03 problems from the first six chapters of the Sweigart book
+    Homework 03 was also posted and it contains short questions from same
+ 6. Homework 04 again on paper wants you to work with AVL trees
+    The U of San Francisco site again becomes relevant
+    Goal: define these trees and research how they behave
+ AVL balances itself so it tries to stay efficient to searching
+ Some data structures mentioned in Lab 02: Point, Line, Triangle, Circle,
+    Sequence, Queue, Stack, Tree. Coming up: AVL, Heaps, Graphs. There are
+ also other data structures that are useful but not deterministic, such as
+ Bloom filters (probabilistic, tradeoffs).
+
+For the midterm let's make sure that we know what we are doing.
+
+And in principle you can support that in a closed-book in person exam.
+
+Don't forget late assignments no penalty (under reasonable conditions) and
+everything including attendance can be made (exams too). For late assignments
+make sure we have time to grade them.
+
+When late please let us know when the late assignment is finally in.
+
+  7. Lab 04: demo.
+
+--
+
+
+dgerman@silo:~$
